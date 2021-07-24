@@ -571,7 +571,9 @@ p {
 
 
 
-
+#slidesh{
+  width: 70%;
+}
 
 img {
   vertical-align: middle;
