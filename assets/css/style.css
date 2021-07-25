@@ -573,6 +573,10 @@ p {
   margin: 5% 0;
 }
 
+#comicillus{
+  margin: 5% 0;
+}
+
 #slidesh{
   width: 70%;
 
@@ -581,6 +585,16 @@ p {
   width: 70%;
   
 }
+.comic1{
+  display: flex;
+}
+#slidesh3{
+  width: 40%;
+}
+#slidesh4{
+  width: 40%;
+}
+
 
 img {
   vertical-align: middle;
@@ -661,6 +675,28 @@ img {
   padding: 2px 16px;
   color: white;
 }
+#caption3{
+  margin: 10px 0;
+  
+}
+/* Container for image text */
+.caption3-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+#caption4{
+  margin: 10px 0;
+  
+}
+/* Container for image text */
+.caption4-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
 
 .row:after {
   content: "";
@@ -678,7 +714,7 @@ img {
 .demo {
   opacity: 0.6;
 }
-.demo2 {
+.demo2,.demo3,.demo4 {
   opacity: 0.6;
 }
 
@@ -691,6 +727,7 @@ img {
 .demo2:hover {
   opacity: 1;
 }
+
 
 
 
