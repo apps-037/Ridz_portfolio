@@ -116,8 +116,8 @@ p {
 }
 
 .paddsection {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .paddsections {
@@ -570,11 +570,11 @@ p {
 
 
 #storyportfolio{
-  margin: 5% 0;
+  margin: 0% 0;
 }
 
 #comicillus{
-  margin: 5% 0;
+  margin: 0% 0;
 }
 
 #slidesh{
@@ -817,17 +817,20 @@ img {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
+  background: #b8a07e;
+  border-radius: 3px;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #999999;
+  color: #fff;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
   color: #b8a07e;
+  background: white;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -835,7 +838,7 @@ img {
 }
 
 #portfolio .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 #portfolio .portfolio-item .portfolio-info {

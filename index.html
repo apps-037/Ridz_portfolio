@@ -202,8 +202,8 @@
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">StoryBoard</li>
+               <!-- <li data-filter="*" class="filter-active">All</li>  -->
+              <li data-filter=".filter-app" class="filter-active">StoryBoard</li>
               <li data-filter=".filter-card">Comic & Illustrations</li>
               <li data-filter=".filter-web">Graphic Design</li>
             </ul>
@@ -213,53 +213,354 @@
         <div class="row portfolio-container">
 
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/story1.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/story1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-12 col-md-6 portfolio-item filter-app">
+            <div id="storyportfolio" class="paddsection">
+        
+            <div class="container" id="slidesh">
+              <div class="mySlides">
+                <div class="numbertext">1 / 12</div>
+                <img src="./assets/img/lod1.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">2 / 12</div>
+                <img src="./assets/img/lod2.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">3 / 12</div>
+                <img src="./assets/img/lod3.png" style="width:100%">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">4 / 12</div>
+                <img src="./assets/img/lod4.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">5 / 12</div>
+                <img src="./assets/img/lod5.png" style="width:100%">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">6 / 12</div>
+                <img src="./assets/img/lod6.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">7 / 12</div>
+                <img src="./assets/img/lod7.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">8 / 12</div>
+                <img src="./assets/img/lod8.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">9 / 12</div>
+                <img src="./assets/img/lod9.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">10 / 12</div>
+                <img src="./assets/img/lod10.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">11 / 12</div>
+                <img src="./assets/img/lod11.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">12 / 12</div>
+                <img src="./assets/img/lod12.png" style="width:100%">
+              </div>
+                
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="./assets/img/lod1.png" style="width:100%" onclick="currentSlide(1)" alt="Life of A Doctor">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/img/lod2.png" style="width:100%" onclick="currentSlide(2)" alt="Life of A Doctor">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/img/lod3.png" style="width:100%" onclick="currentSlide(3)" alt="Life of A Doctor">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/img/lod4.png" style="width:100%" onclick="currentSlide(4)" alt="Life of A Doctor">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/img/lod5.png" style="width:100%" onclick="currentSlide(5)" alt="Life of A Doctor">
+                </div>    
+                <div class="column">
+                  <img class="demo cursor" src="./assets/img/lod6.png" style="width:100%" onclick="currentSlide(6)" alt="Life of A Doctor">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/img/lod7.png" style="width:100%" onclick="currentSlide(7)" alt="Life of A Doctor">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/img/lod8.png" style="width:100%" onclick="currentSlide(8)" alt="Life of A Doctor">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/img/lod9.png" style="width:100%" onclick="currentSlide(9)" alt="Life of A Doctor">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/img/lod10.png" style="width:100%" onclick="currentSlide(10)" alt="Life of A Doctor">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/img/lod11.png" style="width:100%" onclick="currentSlide(11)" alt="Life of A Doctor">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/img/lod12.png" style="width:100%" onclick="currentSlide(12)" alt="Life of A Doctor">
+                </div>
+              </div>
             </div>
+        
+        
+        
+            
+        
+            </div>
+        
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/story2.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/story2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
+          <div class="col-lg-12 col-md-6 portfolio-item filter-app">
+            
+    <div class="container" id="slidesh2">
+      <div class="mySlides2">
+        <div class="numbertext">1 / 4</div>
+        <img src="./assets/img/DB_01.png" style="width:100%">
+      </div>
+    
+      <div class="mySlides2">
+        <div class="numbertext">2 / 4</div>
+        <img src="./assets/img/DB_02.png" style="width:100%">
+      </div>
+    
+      <div class="mySlides2">
+        <div class="numbertext">3 / 4</div>
+        <img src="./assets/img/DB_03.png" style="width:100%">
+      </div>
+        
+      <div class="mySlides2">
+        <div class="numbertext">4 / 4</div>
+        <img src="./assets/img/DB_04.png" style="width:100%">
+      </div>
+        
+      <a class="prev" onclick="plusSlides2(-1)">❮</a>
+      <a class="next" onclick="plusSlides2(1)">❯</a>
+    
+      <div class="caption2-container">
+        <p id="caption2"></p>
+      </div>
+    
+      <div class="row">
+        <div class="column">
+          <img class="demo2 cursor" src="./assets/img/DB_01.png" style="width:100%" onclick="currentSlide2(1)" alt="Dream Big">
+        </div>
+        <div class="column">
+          <img class="demo2 cursor" src="./assets/img/DB_02.png" style="width:100%" onclick="currentSlide2(2)" alt="Dream Big">
+        </div>
+        <div class="column">
+          <img class="demo2 cursor" src="./assets/img/DB_03.png" style="width:100%" onclick="currentSlide2(3)" alt="Dream Big">
+        </div>
+        <div class="column">
+          <img class="demo2 cursor" src="./assets/img/DB_04.png" style="width:100%" onclick="currentSlide2(4)" alt="Dream Big">
+        </div>   
+  
+      </div>
+    </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/comic1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/comic1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-12 col-md-6 portfolio-item filter-card">
+            <div id="comicillus" class="paddsection">
+            
+        <div class="comic1">
+            <div class="container" id="slidesh3">
+              <div class="mySlides3">
+                <div class="numbertext">1 / 9</div>
+                <img src="./assets/img/F1.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides3">
+                <div class="numbertext">2 / 9</div>
+                <img src="./assets/img/F2.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides3">
+                <div class="numbertext">3 / 9</div>
+                <img src="./assets/img/F3.jpg" style="width:100%">
+              </div>
+                
+              <div class="mySlides3">
+                <div class="numbertext">4 / 9</div>
+                <img src="./assets/img/F4.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides3">
+                <div class="numbertext">5 / 9</div>
+                <img src="./assets/img/F5.jpg" style="width:100%">
+              </div>
+                
+              <div class="mySlides3">
+                <div class="numbertext">6 / 9</div>
+                <img src="./assets/img/F6.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides3">
+                <div class="numbertext">7 / 9</div>
+                <img src="./assets/img/F7.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides3">
+                <div class="numbertext">8 / 9</div>
+                <img src="./assets/img/F8.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides3">
+                <div class="numbertext">9 / 9</div>
+                <img src="./assets/img/F9.jpg" style="width:100%">
+              </div>
+            
+                
+              <a class="prev" onclick="plusSlides3(-1)">❮</a>
+              <a class="next" onclick="plusSlides3(1)">❯</a>
+            
+              <div class="caption3-container">
+                <p id="caption3"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo3 cursor" src="./assets/img/F1.jpg" style="width:100%" onclick="currentSlide3(1)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo3 cursor" src="./assets/img/F2.jpg" style="width:100%" onclick="currentSlide3(2)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo3 cursor" src="./assets/img/F3.jpg" style="width:100%" onclick="currentSlide3(3)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo3 cursor" src="./assets/img/F4.jpg" style="width:100%" onclick="currentSlide3(4)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo3 cursor" src="./assets/img/F5.jpg" style="width:100%" onclick="currentSlide3(5)" alt="">
+                </div>    
+                <div class="column">
+                  <img class="demo3 cursor" src="./assets/img/F6.jpg" style="width:100%" onclick="currentSlide3(6)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo3 cursor" src="./assets/img/F7.png" style="width:100%" onclick="currentSlide3(7)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo3 cursor" src="./assets/img/F8.png" style="width:100%" onclick="currentSlide3(8)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo3 cursor" src="./assets/img/F9.jpg" style="width:100%" onclick="currentSlide3(9)" alt="">
+                </div>
+         
+              </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/comic2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/comic2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        
+        
+        
+            <div class="container" id="slidesh4">
+              <div class="mySlides4">
+                <div class="numbertext">1 / 8</div>
+                <img src="./assets/img/portfolio/comic2.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides4">
+                <div class="numbertext">2 / 8</div>
+                <img src="./assets/img/portfolio/f2.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides4">
+                <div class="numbertext">3 / 8</div>
+                <img src="./assets/img/portfolio/f3.jpg" style="width:100%">
+              </div>
+                
+              <div class="mySlides4">
+                <div class="numbertext">4 / 8</div>
+                <img src="./assets/img/portfolio/f4.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides4">
+                <div class="numbertext">5 / 8</div>
+                <img src="./assets/img/portfolio/f5.jpg" style="width:100%">
+              </div>
+                
+              <div class="mySlides4">
+                <div class="numbertext">6 / 8</div>
+                <img src="./assets/img/portfolio/f6.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides4">
+                <div class="numbertext">7 / 8</div>
+                <img src="./assets/img/portfolio/f7.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides4">
+                <div class="numbertext">8 / 8</div>
+                <img src="./assets/img/portfolio/f8.jpg" style="width:100%">
+              </div>
+                
+              <a class="prev" onclick="plusSlides4(-1)">❮</a>
+              <a class="next" onclick="plusSlides4(1)">❯</a>
+            
+              <div class="caption4-container">
+                <p id="caption4"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo4 cursor" src="./assets/img/portfolio/comic2.jpg" style="width:100%" onclick="currentSlide4(1)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo4 cursor" src="./assets/img/portfolio/f2.jpg" style="width:100%" onclick="currentSlide4(2)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo4 cursor" src="./assets/img/portfolio/f3.jpg" style="width:100%" onclick="currentSlide4(3)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo4 cursor" src="./assets/img/portfolio/f4.jpg" style="width:100%" onclick="currentSlide4(4)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo4 cursor" src="./assets/img/portfolio/f5.jpg" style="width:100%" onclick="currentSlide4(5)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo4 cursor" src="./assets/img/portfolio/f6.jpg" style="width:100%" onclick="currentSlide4(6)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo4 cursor" src="./assets/img/portfolio/f7.jpg" style="width:100%" onclick="currentSlide4(7)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo4 cursor" src="./assets/img/portfolio/f8.jpg" style="width:100%" onclick="currentSlide4(8)" alt="">
+                </div>
+          
+         
+              </div>
             </div>
+        
+        
+        
+        
+        
+         </div>
+        
+        
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/comic3.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/comic3.png data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
+        
           </div>
+
 
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
@@ -306,365 +607,6 @@
 
     </div><!-- End Portfolio Section -->
 
-    <div id="storyportfolio" class="paddsection">
-
-      <div class="container">
-        <div class="section-title text-center">
-          <h2>StoryBoard Portfolio</h2>
-        </div>
-      </div>
-
-    <div class="container" id="slidesh">
-      <div class="mySlides">
-        <div class="numbertext">1 / 12</div>
-        <img src="./assets/img/lod1.png" style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">2 / 12</div>
-        <img src="./assets/img/lod2.png" style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">3 / 12</div>
-        <img src="./assets/img/lod3.png" style="width:100%">
-      </div>
-        
-      <div class="mySlides">
-        <div class="numbertext">4 / 12</div>
-        <img src="./assets/img/lod4.png" style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">5 / 12</div>
-        <img src="./assets/img/lod5.png" style="width:100%">
-      </div>
-        
-      <div class="mySlides">
-        <div class="numbertext">6 / 12</div>
-        <img src="./assets/img/lod6.png" style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">7 / 12</div>
-        <img src="./assets/img/lod7.png" style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">8 / 12</div>
-        <img src="./assets/img/lod8.png" style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">9 / 12</div>
-        <img src="./assets/img/lod9.png" style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">10 / 12</div>
-        <img src="./assets/img/lod10.png" style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">11 / 12</div>
-        <img src="./assets/img/lod11.png" style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">12 / 12</div>
-        <img src="./assets/img/lod12.png" style="width:100%">
-      </div>
-        
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
-    
-      <div class="caption-container">
-        <p id="caption"></p>
-      </div>
-    
-      <div class="row">
-        <div class="column">
-          <img class="demo cursor" src="./assets/img/lod1.png" style="width:100%" onclick="currentSlide(1)" alt="Life of A Doctor">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="./assets/img/lod2.png" style="width:100%" onclick="currentSlide(2)" alt="Life of A Doctor">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="./assets/img/lod3.png" style="width:100%" onclick="currentSlide(3)" alt="Life of A Doctor">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="./assets/img/lod4.png" style="width:100%" onclick="currentSlide(4)" alt="Life of A Doctor">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="./assets/img/lod5.png" style="width:100%" onclick="currentSlide(5)" alt="Life of A Doctor">
-        </div>    
-        <div class="column">
-          <img class="demo cursor" src="./assets/img/lod6.png" style="width:100%" onclick="currentSlide(6)" alt="Life of A Doctor">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="./assets/img/lod7.png" style="width:100%" onclick="currentSlide(7)" alt="Life of A Doctor">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="./assets/img/lod8.png" style="width:100%" onclick="currentSlide(8)" alt="Life of A Doctor">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="./assets/img/lod9.png" style="width:100%" onclick="currentSlide(9)" alt="Life of A Doctor">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="./assets/img/lod10.png" style="width:100%" onclick="currentSlide(10)" alt="Life of A Doctor">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="./assets/img/lod11.png" style="width:100%" onclick="currentSlide(11)" alt="Life of A Doctor">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="./assets/img/lod12.png" style="width:100%" onclick="currentSlide(12)" alt="Life of A Doctor">
-        </div>
-      </div>
-    </div>
-
-
-
-    
-
-    </div>
-
-
-    
-    <div class="container" id="slidesh2">
-      <div class="mySlides2">
-        <div class="numbertext">1 / 4</div>
-        <img src="./assets/img/DB_01.png" style="width:100%">
-      </div>
-    
-      <div class="mySlides2">
-        <div class="numbertext">2 / 4</div>
-        <img src="./assets/img/DB_02.png" style="width:100%">
-      </div>
-    
-      <div class="mySlides2">
-        <div class="numbertext">3 / 4</div>
-        <img src="./assets/img/DB_03.png" style="width:100%">
-      </div>
-        
-      <div class="mySlides2">
-        <div class="numbertext">4 / 4</div>
-        <img src="./assets/img/DB_04.png" style="width:100%">
-      </div>
-        
-      <a class="prev" onclick="plusSlides2(-1)">❮</a>
-      <a class="next" onclick="plusSlides2(1)">❯</a>
-    
-      <div class="caption2-container">
-        <p id="caption2"></p>
-      </div>
-    
-      <div class="row">
-        <div class="column">
-          <img class="demo2 cursor" src="./assets/img/DB_01.png" style="width:100%" onclick="currentSlide2(1)" alt="Dream Big">
-        </div>
-        <div class="column">
-          <img class="demo2 cursor" src="./assets/img/DB_02.png" style="width:100%" onclick="currentSlide2(2)" alt="Dream Big">
-        </div>
-        <div class="column">
-          <img class="demo2 cursor" src="./assets/img/DB_03.png" style="width:100%" onclick="currentSlide2(3)" alt="Dream Big">
-        </div>
-        <div class="column">
-          <img class="demo2 cursor" src="./assets/img/DB_04.png" style="width:100%" onclick="currentSlide2(4)" alt="Dream Big">
-        </div>   
-  
-      </div>
-    </div>
-
-
-
-
-
- 
-    <!-- ========== Comic illustration =============-->
-    <div id="comicillus" class="paddsection">
-
-      <div class="container">
-        <div class="section-title text-center">
-          <h2>Comic illustrations</h2>
-        </div>
-      </div>
-
-    
-<div class="comic1">
-    <div class="container" id="slidesh3">
-      <div class="mySlides3">
-        <div class="numbertext">1 / 9</div>
-        <img src="./assets/img/F1.jpg" style="width:100%">
-      </div>
-    
-      <div class="mySlides3">
-        <div class="numbertext">2 / 9</div>
-        <img src="./assets/img/F2.jpg" style="width:100%">
-      </div>
-    
-      <div class="mySlides3">
-        <div class="numbertext">3 / 9</div>
-        <img src="./assets/img/F3.jpg" style="width:100%">
-      </div>
-        
-      <div class="mySlides3">
-        <div class="numbertext">4 / 9</div>
-        <img src="./assets/img/F4.jpg" style="width:100%">
-      </div>
-    
-      <div class="mySlides3">
-        <div class="numbertext">5 / 9</div>
-        <img src="./assets/img/F5.jpg" style="width:100%">
-      </div>
-        
-      <div class="mySlides3">
-        <div class="numbertext">6 / 9</div>
-        <img src="./assets/img/F6.jpg" style="width:100%">
-      </div>
-    
-      <div class="mySlides3">
-        <div class="numbertext">7 / 9</div>
-        <img src="./assets/img/F7.png" style="width:100%">
-      </div>
-    
-      <div class="mySlides3">
-        <div class="numbertext">8 / 9</div>
-        <img src="./assets/img/F8.png" style="width:100%">
-      </div>
-    
-      <div class="mySlides3">
-        <div class="numbertext">9 / 9</div>
-        <img src="./assets/img/F9.jpg" style="width:100%">
-      </div>
-    
-        
-      <a class="prev" onclick="plusSlides3(-1)">❮</a>
-      <a class="next" onclick="plusSlides3(1)">❯</a>
-    
-      <div class="caption3-container">
-        <p id="caption3"></p>
-      </div>
-    
-      <div class="row">
-        <div class="column">
-          <img class="demo3 cursor" src="./assets/img/F1.jpg" style="width:100%" onclick="currentSlide3(1)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo3 cursor" src="./assets/img/F2.jpg" style="width:100%" onclick="currentSlide3(2)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo3 cursor" src="./assets/img/F3.jpg" style="width:100%" onclick="currentSlide3(3)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo3 cursor" src="./assets/img/F4.jpg" style="width:100%" onclick="currentSlide3(4)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo3 cursor" src="./assets/img/F5.jpg" style="width:100%" onclick="currentSlide3(5)" alt="">
-        </div>    
-        <div class="column">
-          <img class="demo3 cursor" src="./assets/img/F6.jpg" style="width:100%" onclick="currentSlide3(6)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo3 cursor" src="./assets/img/F7.png" style="width:100%" onclick="currentSlide3(7)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo3 cursor" src="./assets/img/F8.png" style="width:100%" onclick="currentSlide3(8)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo3 cursor" src="./assets/img/F9.jpg" style="width:100%" onclick="currentSlide3(9)" alt="">
-        </div>
- 
-      </div>
-    </div>
-
-
-
-    <div class="container" id="slidesh4">
-      <div class="mySlides4">
-        <div class="numbertext">1 / 8</div>
-        <img src="./assets/img/portfolio/comic2.jpg" style="width:100%">
-      </div>
-    
-      <div class="mySlides4">
-        <div class="numbertext">2 / 8</div>
-        <img src="./assets/img/portfolio/f2.jpg" style="width:100%">
-      </div>
-    
-      <div class="mySlides4">
-        <div class="numbertext">3 / 8</div>
-        <img src="./assets/img/portfolio/f3.jpg" style="width:100%">
-      </div>
-        
-      <div class="mySlides4">
-        <div class="numbertext">4 / 8</div>
-        <img src="./assets/img/portfolio/f4.jpg" style="width:100%">
-      </div>
-    
-      <div class="mySlides4">
-        <div class="numbertext">5 / 8</div>
-        <img src="./assets/img/portfolio/f5.jpg" style="width:100%">
-      </div>
-        
-      <div class="mySlides4">
-        <div class="numbertext">6 / 8</div>
-        <img src="./assets/img/portfolio/f6.jpg" style="width:100%">
-      </div>
-    
-      <div class="mySlides4">
-        <div class="numbertext">7 / 8</div>
-        <img src="./assets/img/portfolio/f7.jpg" style="width:100%">
-      </div>
-    
-      <div class="mySlides4">
-        <div class="numbertext">8 / 8</div>
-        <img src="./assets/img/portfolio/f8.jpg" style="width:100%">
-      </div>
-        
-      <a class="prev" onclick="plusSlides4(-1)">❮</a>
-      <a class="next" onclick="plusSlides4(1)">❯</a>
-    
-      <div class="caption4-container">
-        <p id="caption4"></p>
-      </div>
-    
-      <div class="row">
-        <div class="column">
-          <img class="demo4 cursor" src="./assets/img/portfolio/comic2.jpg" style="width:100%" onclick="currentSlide4(1)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo4 cursor" src="./assets/img/portfolio/f2.jpg" style="width:100%" onclick="currentSlide4(2)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo4 cursor" src="./assets/img/portfolio/f3.jpg" style="width:100%" onclick="currentSlide4(3)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo4 cursor" src="./assets/img/portfolio/f4.jpg" style="width:100%" onclick="currentSlide4(4)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo4 cursor" src="./assets/img/portfolio/f5.jpg" style="width:100%" onclick="currentSlide4(5)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo4 cursor" src="./assets/img/portfolio/f6.jpg" style="width:100%" onclick="currentSlide4(6)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo4 cursor" src="./assets/img/portfolio/f7.jpg" style="width:100%" onclick="currentSlide4(7)" alt="">
-        </div>
-        <div class="column">
-          <img class="demo4 cursor" src="./assets/img/portfolio/f8.jpg" style="width:100%" onclick="currentSlide4(8)" alt="">
-        </div>
-  
- 
-      </div>
-    </div>
-
-
-
-
-
- </div>
-
-
-  </div>
 
 
 
