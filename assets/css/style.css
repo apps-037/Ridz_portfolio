@@ -427,7 +427,8 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
+  background: url("../img/home-bg3.png") no-repeat scroll center center/cover;
+  background-size: 1200px;
   height: 100vh;
   width: 100%;
 }
@@ -580,17 +581,19 @@ p {
 
 #slidesh{
   width: 70%;
+  margin: 0 auto;
 
 }
 #slidesh2{
   width: 70%;
-  
+  margin: 0 auto;
 }
 .comic1{
   display: flex;
 }
 #slidesh3{
   width: 40%;
+  margin: 0 5%;
 }
 #slidesh4{
   width: 40%;
@@ -617,7 +620,24 @@ img {
 }
 
 /* Next & previous buttons */
-.prev,
+.prev {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  background: rgba(252, 252, 252, 0.645) ;
+  left: 10px;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 3px 3px 3px 3px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
 .next {
   cursor: pointer;
   position: absolute;
@@ -625,18 +645,15 @@ img {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+  right: 10px;
+  background: rgba(252, 252, 252, 0.645) ;
+  border-radius: 3px 3px 3px 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -760,6 +777,7 @@ img {
 .services-block span {
   margin: 10px 0;
   position: relative;
+  text-align: center;
   font-size: 13px;
   color: #292929;
   letter-spacing: 0.1em;
@@ -839,7 +857,7 @@ img {
 }
 
 #portfolio .portfolio-item {
-  margin-bottom: 0px;
+  margin: 30px 45px;
 }
 
 #portfolio .portfolio-item .portfolio-info {
