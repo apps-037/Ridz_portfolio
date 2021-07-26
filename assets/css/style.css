@@ -427,8 +427,8 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg3.png") no-repeat scroll center center/cover;
-  background-size: 1200px;
+  background: url("../img/home-bg2.png") no-repeat scroll center center/cover;
+  /* background-size: 1200px; */
   height: 100vh;
   width: 100%;
 }
