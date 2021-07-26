@@ -593,7 +593,6 @@ p {
 }
 #slidesh3{
   width: 40%;
-  margin: 0 5%;
 }
 #slidesh4{
   width: 40%;
@@ -857,7 +856,7 @@ img {
 }
 
 #portfolio .portfolio-item {
-  margin: 30px 45px;
+ margin: 30px 0px;
 }
 
 #portfolio .portfolio-item .portfolio-info {
